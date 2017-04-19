@@ -1,9 +1,14 @@
-# api documentation for  [ng2-toastr (v4.0.1)](https://github.com/PointInside/ng2-toastr#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-ng2-toastr.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ng2-toastr) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ng2-toastr.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ng2-toastr)
+# npmdoc-ng2-toastr
+
+#### api documentation for  [ng2-toastr (v4.0.1)](https://github.com/PointInside/ng2-toastr#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-ng2-toastr.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ng2-toastr) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ng2-toastr.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ng2-toastr)
+
 #### bootstrap style of toast for modern angular
 
-[![NPM](https://nodei.co/npm/ng2-toastr.png?downloads=true)](https://www.npmjs.com/package/ng2-toastr)
+[![NPM](https://nodei.co/npm/ng2-toastr.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/ng2-toastr)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-ng2-toastr/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-ng2-toastr_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-ng2-toastr/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-ng2-toastr/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-ng2-toastr/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-ng2-toastr/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-ng2-toastr/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-ng2-toastr/build/screenCapture.npmPackageListing.svg)
 
@@ -79,13 +84,11 @@
     "main": "ng2-toastr.js",
     "maintainers": [
         {
-            "name": "derekshi",
-            "email": "dereks@pointinside.com"
+            "name": "derekshi"
         }
     ],
     "name": "ng2-toastr",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/PointInside/ng2-toastr.git"
@@ -105,47 +108,6 @@
     "typings": "ng2-toastr.d.ts",
     "version": "4.0.1"
 }
-```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module ng2-toastr](#apidoc.module.ng2-toastr)
-1.  object <span class="apidocSignatureSpan">ng2-toastr.</span>toast
-
-#### [module ng2-toastr.toast](#apidoc.module.ng2-toastr.toast)
-1.  [function <span class="apidocSignatureSpan">ng2-toastr.toast.</span>Toast (type, message, title, data)](#apidoc.element.ng2-toastr.toast.Toast)
-
-
-
-# <a name="apidoc.module.ng2-toastr"></a>[module ng2-toastr](#apidoc.module.ng2-toastr)
-
-
-
-# <a name="apidoc.module.ng2-toastr.toast"></a>[module ng2-toastr.toast](#apidoc.module.ng2-toastr.toast)
-
-#### <a name="apidoc.element.ng2-toastr.toast.Toast"></a>[function <span class="apidocSignatureSpan">ng2-toastr.toast.</span>Toast (type, message, title, data)](#apidoc.element.ng2-toastr.toast.Toast)
-- description and source-code
-```javascript
-function Toast(type, message, title, data) {
-    this.type = type;
-    this.message = message;
-    this.title = title;
-    this.data = data;
-    this.config = {
-        dismiss: 'auto',
-        enableHTML: false,
-        titleClass: '',
-        messageClass: '',
-        toastLife: 3000,
-        showCloseButton: false,
-    };
-}
-```
-- example usage
-```shell
-n/a
 ```
 
 

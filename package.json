@@ -1,7 +1,7 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
     "buildNpmdoc": "ng2-toastr",
-    "description": "api documentation for [ng2-toastr (v4.0.1)](https://github.com/PointInside/ng2-toastr#readme) [![npm package](https://img.shields.io/npm/v/npmdoc-ng2-toastr.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ng2-toastr) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ng2-toastr.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ng2-toastr)",
+    "description": "#### api documentation for  [ng2-toastr (v4.0.1)](https://github.com/PointInside/ng2-toastr#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-ng2-toastr.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ng2-toastr) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ng2-toastr.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ng2-toastr)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "ng2-toastr": "*",
@@ -36,5 +36,5 @@
         "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "0.0.2"
 }
